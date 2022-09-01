@@ -36,7 +36,7 @@
       k8s_service:
         state: present
         name: nodejs-ex
-          - ports:  443
+          - ports: 443
             protocol: TCP
         selector:
           app:nodejs-ex
